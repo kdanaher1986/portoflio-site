@@ -1,0 +1,120 @@
+.background {
+   position: scroll;
+   width: 100%;
+  height: auto;
+}
+
+h1 {
+   position: absolute;
+   top: 0;
+   left: 10%;
+   width: 100%;
+  color: white;
+  font-size: 100px;
+  bottom: 0;
+  font: arial;
+  shadow: 100px;
+
+}
+
+
+.container {
+  width: 100%;
+  left: 0;
+}
+div.container {
+   position: absolute;
+/* /*    left: 0px;  */
+  right: 0px;
+  top: 650px;
+   width: 80%;
+  color: white;
+}
+
+a {
+  color: black;
+
+}
+
+  div.container2 {
+    background: rgba(255, 255, 255, 0.7) ;
+   position: absolute;
+   top: 300px;
+/*    left: 0;  */
+   width: %;
+  color: black;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+/* li {
+  background: rgba(255, 255, 255, 0.7);
+  width: 100%;
+left: 0px;
+} */
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  width: 100%;
+  color: black;
+  font: arial;
+  font-size: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  background-width: 100%;
+  padding-top: 0px;
+  padding-left: 50px;
+  padding-right: 90%;
+
+}
+div.social {
+     position: absolute;
+   left: 50px;
+  right: 0px;
+  top: 950px;
+/*   bottom-padding: 500px; */
+   width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.social {
+position: relative;
+
+}
+.social div {
+  height: 100px;
+}
+
+.column-left{
+  width: 25%;
+    left: 0;
+/*     background: white; */
+    position: absolute;
+/*   border: 10px solid; */
+}
+
+.column-center{
+  width: 25%;
+    left: 0;
+    background:;
+    position: absolute;
+  left: 45%;
+}
+
+.column-right{
+  width: 25%;
+    background:;
+    position: absolute;
+  right: 0;
+  left: 900;
+}
+img.resize{
+  width: 50px;
+  height: auto;
+}
