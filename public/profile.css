@@ -93,7 +93,7 @@ position: relative;
 
 .column-left{
   width: 25%;
-    left: 0;
+    left: inherit;
 /*     background: white; */
     position: absolute;
 /*   border: 10px solid; */
@@ -101,7 +101,7 @@ position: relative;
 
 .column-center{
   width: 25%;
-    left: 0;
+    left: inherit;
     background:;
     position: absolute;
   left: 45%;
@@ -111,8 +111,8 @@ position: relative;
   width: 25%;
     background:;
     position: absolute;
-  right: 0;
-  left: 900;
+  right: inherit;
+  left: 80%;
 }
 img.resize{
   width: 50px;
