@@ -1,34 +1,49 @@
 .background {
-   position: scroll;
-   width: 100%;
-  height: auto;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/avatars/kdanaher1986-1384829969_280.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    display: inline-flex;
+    margin: 0px;
 }
 
 h1 {
-   position: absolute;
-   top: 0;
-   left: 10%;
-   width: 100%;
-  color: white;
-  font-size: 100px;
-  bottom: 0;
-  font: arial;
-  shadow: 100px;
-
+    padding-left: 11px;
+    padding-right: -3px;
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: auto;
+    color: white;
+    font-size: 100px;
+    /* bottom: 0; */
+    font-family: : futura;
 }
 
+.container2 {
+    margin-top: 300px;
+    background-position: absolute;
+    width: 100%;
+    left: 0;
+}
 
 .container {
+  background-position: absolute;
   width: 100%;
   left: 0;
 }
+
+
 div.container {
-   position: absolute;
-/* /*    left: 0px;  */
-  right: 0px;
-  top: 650px;
-   width: 80%;
-  color: white;
+    font-family: futura;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 30px;
+    width: 54%;
+    color: white;
+    margin-left: 0px;
 }
 
 a {
@@ -36,28 +51,39 @@ a {
 
 }
 
-  div.container2 {
-    background: rgba(255, 255, 255, 0.7) ;
-   position: absolute;
-   top: 300px;
-/*    left: 0;  */
-   width: %;
-  color: black;
+div.container2 {
+    font-family: futura;
+    background: rgba(255, 255, 255, 0.7);
+    top: 600px;
+    background-position: static;
+    left: 0;
+    width: 100%;
+    height: absolute;
+    color: black;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     padding-left: 20px;
     padding-right: 60px;
 }
 
-/* li {
+.container2 {
+    margin-top: 300px;
+    background-position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+ li {
   background: rgba(255, 255, 255, 0.7);
   width: 100%;
 left: 0px;
-} */
+} 
+
 
 ul {
-  padding: 0;
-  list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
 }
 
 li {
@@ -73,14 +99,10 @@ li {
 
 }
 div.social {
-     position: absolute;
-   left: 50px;
-  right: 0px;
-  top: 950px;
-/*   bottom-padding: 500px; */
-   width: 100%;
-  height: 100%;
-  color: white;
+    position: absolute;
+    left: 50px;
+    right: 0px;
+    top: 950px;
 }
 
 .social {
@@ -91,29 +113,31 @@ position: relative;
   height: 100px;
 }
 
-.column-left{
-  width: 25%;
-    left: inherit;
-/*     background: white; */
+.column-left {
+    /* width: 25; */
+    float: left;
+    /* background: white; */
     position: absolute;
-/*   border: 10px solid; */
+    /* border: 10px solid; */
 }
 
-.column-center{
-  width: 25%;
+.column-center {
+    width: 25%;
     left: inherit;
-    background:;
+    background: ;
     position: absolute;
-  left: 45%;
+    left: 45%;
+    padding-right: 0px;
 }
 
-.column-right{
-  width: 25%;
-    background:;
+.column-right {
+    left: 894px;
+    background: ;
     position: absolute;
-  right: inherit;
-  left: 80%;
+    /* right: 0px; */
+    /* left: 80%; */
 }
+
 img.resize{
   width: 50px;
   height: auto;
